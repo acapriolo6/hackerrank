@@ -53,7 +53,7 @@ class Result {
 public class MaxMin {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("OUTPUT_PATH_" + MaxMin.class.getName()));
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("OUTPUT_PATH"));
 
         int n = Integer.parseInt(bufferedReader.readLine().trim());
 
